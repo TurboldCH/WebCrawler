@@ -3,7 +3,7 @@ import { clearQueue, enqueueUrl, isVisited } from "./queueManager";
 
 async function startSession() {
   const startUrl = "https://pinecone.academy";
-
+  console.log("Crawling is starting...")
   if (!(await isVisited(startUrl))) {
     await clearQueue();
   }
