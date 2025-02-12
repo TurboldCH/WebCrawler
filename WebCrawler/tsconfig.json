@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ES2022", // Or ESNext, which supports top-level await
+      "module": "ESNext", // Use a module system that supports top-level await
+      "moduleResolution": "node",
+      "outDir": "./dist",
+      "strict": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "resolveJsonModule": true,
+      "typeRoots": ["./node_modules/@types"]
+    },
+    "include": ["src/**/*.ts"],
+    "exclude": ["node_modules"]
+  }
+  
+  
